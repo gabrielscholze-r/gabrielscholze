@@ -438,7 +438,7 @@ div.logos i:hover, div.relatorio-cont i:hover{
   display: inline-block;
   transform: rotate(3deg)!important;}
 .pic-logos{
-  margin: 30px;
+  margin-top: 30px;
   text-align: center;
   justify-content: center;
   display: grid;
