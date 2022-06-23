@@ -41,13 +41,7 @@ function languages(x) {
         'Conhecimento básico em C#, aprendizado feito apenas por meio da plataforma Unity de desenvolvimento de jogos!';
     }, 100)
     $('#lang-description').fadeIn();
-  }else if (x === 7) {
-    $('#lang-description').fadeOut(100)
-    setTimeout(function () {
-      document.getElementById('lang-description').innerHTML =
-        'Conhecimento básico em SQL fruto de um trabalho de faculdade, onde ocorreu uma construção de banco de dados básico!';
-    }, 100)
-    $('#lang-description').fadeIn()
+  
   } else if (x === 8) {
     $('#lang-description').fadeOut(100)
     setTimeout(function () {
