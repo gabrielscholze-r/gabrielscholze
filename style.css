@@ -125,6 +125,7 @@ p {
   transform: translateX(2px);
 }
 .sobre_texto {
+  margin: 0;
   font-size: 40px;
   filter: drop-shadow(1px 1px 0.5px black);
   text-align: center;
@@ -569,6 +570,22 @@ input:checked + .slider {
     text-align: center;
   }
   /* ============================ */
+  .home-container{
+    text-align: center;
+    display: grid;
+  }
+  .social{
+    margin: auto;
+    display: flex;
+  }
+  .social_icon{
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .sobre_texto{
+    margin-top: 4rem;
+  }
+
 }
 .nav-active {
   transform: translateX(0%);
