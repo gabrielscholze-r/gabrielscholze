@@ -43,6 +43,7 @@ hr {
   margin-bottom: 20px;
 }
 .myName{
+  
   text-decoration: none;
   color: var(--fontColor-black);
   transition: 0.2s;
@@ -104,6 +105,7 @@ p {
   text-justify: inter-word;
 }
 .sobre {
+  width: 100%;
   margin-top: 20px;
   align-items: center;
   display: flex;
@@ -114,6 +116,7 @@ p {
   margin-right: 5px;
 }
 .foto-costas {
+  margin: auto;
   margin-right: 5%;
 }
 .costas-foto {
@@ -185,6 +188,7 @@ nav {
   background-color: var(--head-white) !important;
 }
 .logo {
+  width: fit-content;
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 20px;
@@ -202,7 +206,7 @@ nav {
 }
 
 .nav-links a {
-  font-size: 13px;
+  font-size: 1rem;
   color: var(--main-gray);
   text-decoration: none;
   letter-spacing: 1px;
@@ -308,6 +312,7 @@ nav {
 }
 
 .bars {
+  width: 100vw;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -315,7 +320,7 @@ nav {
   margin-top: 10px;
   overflow: hidden;
   background:  var(--main-purple);
-  width: 400px;
+  width: 50%;
   height: 30px;
 }
 progress::-moz-progress-bar {
@@ -504,12 +509,20 @@ input:checked + .slider {
 @media screen and (max-width: 768px) {
   /* NAV */
   body {
-    overflow-x: hidden;
+    overflow-x:hidden;
   }
-
+  .header{
+    justify-content: space-between;
+  }
+  .blob{
+    width: 300px;
+  }
+  .progressBar{
+    width: 80%;
+  }
   .nav-links {
     z-index: 100;
-    padding: 20px 0;
+    padding: 10px 0;
     width: 50%;
     position: fixed;
     right: 0px;
@@ -525,7 +538,13 @@ input:checked + .slider {
   .nav-links li {
     opacity: 0;
   }
+  .logo{
+    margin-left: 10px;
+    font-size: 1rem;
+  }
   .burg {
+    margin-right: 10%;
+    width: fit-content;
     display: block;
     cursor: pointer;
   }
@@ -584,6 +603,9 @@ input:checked + .slider {
   }
   .sobre_texto{
     margin-top: 4rem;
+  }
+  .foto-costas{
+    margin: auto;
   }
 
 }
