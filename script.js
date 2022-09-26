@@ -10,21 +10,21 @@ function languages(x) {
     $('#lang-description').fadeOut(100)
     setTimeout(function () {
       document.getElementById('lang-description').innerHTML =
-        'Conhecimento intermetiário em HTML!'
+        'Conhecimento intermediário em HTML!'
     }, 100)
     $('#lang-description').fadeIn()
   } else if (x === 2) {
     $('#lang-description').fadeOut(100)
     setTimeout(function () {
       document.getElementById('lang-description').innerHTML =
-        'Conhecimento intermetiário em CSS!'
+        'Conhecimento intermediário em CSS!'
     }, 100)
     $('#lang-description').fadeIn()
   } else if (x === 3) {
     $('#lang-description').fadeOut(100)
     setTimeout(function () {
       document.getElementById('lang-description').innerHTML =
-        'Conhecimento intermetiário em JavaScript!'
+        'Conhecimento intermediário em JavaScript!'
     }, 100)
     $('#lang-description').fadeIn()
   } else if (x === 4) {
@@ -42,11 +42,20 @@ function languages(x) {
     }, 100)
     $('#lang-description').fadeIn();
   
+  }
+  else if (x === 7) {
+    $('#lang-description').fadeOut(100);
+    setTimeout(function () {
+      document.getElementById('lang-description').innerHTML =
+        'Conhecimento intermediário em SQL';
+    }, 100)
+    $('#lang-description').fadeIn();
+  
   } else if (x === 8) {
     $('#lang-description').fadeOut(100)
     setTimeout(function () {
       document.getElementById('lang-description').innerHTML =
-        'Conhecimento básico em React no momento, que deverá se tornar avançado até o fim de 2021!';
+        'Conhecimento intermediário em React.js, trabalhando com bootstrap, tailwindcss, firebase, mongodb e outros.';
     }, 100)
     $('#lang-description').fadeIn()
   }
